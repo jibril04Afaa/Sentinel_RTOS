@@ -1,0 +1,40 @@
+# OS Files
+.DS_Store
+.AppleDouble
+.LSOverride
+._*
+.Trash-*
+
+# pico edge node
+edge_node_pico/build/
+
+# general cmake and make files
+CMakeCache.txt
+CMakeFiles/
+Makefile
+cmake_install.cmake
+install_manifest.txt
+compile_commands.json
+
+# compiled object files and binaries
+*.o
+*.obj
+*.out
+*.elf
+*.map
+*.bin
+*.hex
+*.uf2
+*.a
+
+# STM32 Security Hub (CubeIDE)
+security_hub_stm32/Debug/
+security_hub_stm32/Release/
+
+# ignore dependency and stack usage files generated during build
+*.d
+*.su
+
+# ignore user-specific IDE workspace metadata and run configurations
+.metadata/
+*.launch
